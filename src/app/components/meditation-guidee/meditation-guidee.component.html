@@ -1,1 +1,21 @@
-<p>meditation-guidee works!</p>
+
+<div class="container">
+    <h3 class="title">Liste des méditation disponible</h3>
+    <div class="container-techniques">
+        <ol>
+            <li *ngFor="let technique of techniquesToDisplay">
+               
+                <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{technique.image}}">
+                    <div class="card-body">
+                        <h5 class="title">{{technique.name}}</h5>
+                        <p class="text">Cest technique est la {{technique.id}} créer, elle est decrite comme :
+                            {{technique.description}} Elle vous projetera dans un univers {{technique.ambiance}} pendant
+                            {{technique.duration}}.</p>
+
+            
+                    </div>
+                </div>
+            </ol>
+    </div>
+</div>

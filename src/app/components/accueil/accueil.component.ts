@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { TechniqueService } from '../services/technique.service';
+import { Techniques } from 'src/app/models/techniques';
 
 @Component({
   selector: 'app-accueil',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./accueil.component.css']
 })
 export class AccueilComponent {
+
 
 }
