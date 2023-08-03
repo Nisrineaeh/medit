@@ -4,5 +4,5 @@ export interface Techniques {
     ambiance: string;
     description: string;
     duration: number;
-    image:string;
+    images:string;
 }

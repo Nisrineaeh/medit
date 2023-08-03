@@ -10,6 +10,7 @@ import { JournalComponent } from './components/journal/journal.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CardComponent } from './components/card/card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     MeditationGuideeComponent,
     JournalComponent,
     PageNotFoundComponent,
-    CardComponent
+    CardComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
