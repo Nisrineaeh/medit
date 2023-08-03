@@ -2,7 +2,7 @@
 <div class="container">
     <h3 class="title">Liste des méditation disponible</h3>
     <div class="container-techniques">
-        <ol>
+       
             <li *ngFor="let technique of techniquesToDisplay">
                
                 <div class="card" style="width: 18rem;">
@@ -13,9 +13,10 @@
                             {{technique.description}} Elle vous projetera dans un univers {{technique.ambiance}} pendant
                             {{technique.duration}}.</p>
 
-            
+                                        <button href="#" class="btn btn-outline">Commencer</button>
+
                     </div>
                 </div>
-            </ol>
+        
     </div>
 </div>

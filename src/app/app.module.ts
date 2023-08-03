@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { CardComponent } from './components/card/card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { ProfilComponent } from './pages/profil/profil.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     JournalComponent,
     PageNotFoundComponent,
     CardComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    ProfilComponent
   ],
   imports: [
     BrowserModule,

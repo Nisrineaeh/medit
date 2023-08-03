@@ -24,7 +24,7 @@
         "description":
           "Méditation pour se détacher du numérique et retrouver le calme intérieur.",
         "duration": "10 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
+        "images": "/assets/détox.jpg"
       },
       {
         "id": 4,
@@ -33,60 +33,24 @@
         "description":
           "Méditation pour se ressourcer au cœur d'une forêt enchantée et magique.",
         "duration": "25 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
+        "images": "/assets/enchante.jpg"
       },
       {
         "id": 5,
-        "name": "Résilience Sereine",
-        "ambiance": "Résilience",
-        "description":
-          "Méditation pour cultiver la sérénité et la force intérieure face aux défis.",
-        "duration": "18 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Harmonie Intérieure",
-        "ambiance": "Harmonie",
-        "description":
-          "Méditation pour aligner les énergies et retrouver l'harmonie intérieure.",
-        "duration": "12 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
-      },
-      {
-        "id": 7,
         "name": "Plongée Abyssale",
         "ambiance": "Océan",
         "description":
-          "Méditation pour plonger au cœur des abysses marins et trouver la paix.",
+          "Méditation pour respirer correctement et plonger au cœur des abysses marins.",
         "duration": "22 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
+        "images": "/assets/ocean.jpg"
       },
       {
-        "id": 8,
-        "name": "Éclat de Gratitude",
-        "ambiance": "Gratitude",
-        "description":
-          "Méditation pour cultiver la gratitude et rayonner de positivité.",
-        "duration": "17 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
-      },
-      {
-        "id": 9,
+        "id": 6,
         "name": "Flux Créatif",
         "ambiance": "Créativité",
         "description":
           "Méditation pour stimuler la créativité et libérer son potentiel artistique.",
         "duration": "30 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Sérénade Enchantée",
-        "ambiance": "Sérénade",
-        "description":
-          "Méditation en musique pour s'évader dans un monde enchanté.",
-        "duration": "16 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
+        "images": "/assets/creativite.jpg"
       }
 ]}
