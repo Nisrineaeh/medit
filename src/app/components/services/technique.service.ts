@@ -14,7 +14,6 @@ export class TechniqueService {
   getTechnoiques(): Observable<Techniques[]> {
     return this.http.get<Techniques[]>('http://localhost:3000/techniques');
   }
-
  
   }
 
