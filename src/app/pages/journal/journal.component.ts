@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TechniqueService } from '../services/technique.service';
+import { TechniqueService } from '../../components/services/technique.service';
 import { Techniques } from 'src/app/models/techniques';
 
 @Component({
@@ -7,9 +7,9 @@ import { Techniques } from 'src/app/models/techniques';
   templateUrl: './journal.component.html',
   styleUrls: ['./journal.component.css']
 })
-export class JournalComponent implements OnInit{
+export class JournalComponent implements OnInit {
   techniques!: Techniques[];
-  message: string ="";
+  message: string = "";
   constructor(private techniquesService: TechniqueService) { }
 
   ngOnInit() {
@@ -18,13 +18,13 @@ export class JournalComponent implements OnInit{
   }
 
   loadMeditationTechniques() {
-   
-      this.techniquesService.getTechnoiques().subscribe((technique) => {
-        this.techniques = technique;
-        console.log(this.techniques)
-      })
-    }
+
+    this.techniquesService.getTechnoiques().subscribe((technique) => {
+      this.techniques = technique;
+      console.log(this.techniques)
+    })
   }
+}
 
 
 

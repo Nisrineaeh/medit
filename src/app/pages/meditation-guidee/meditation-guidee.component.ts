@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Techniques } from 'src/app/models/techniques';
-import { TechniqueService } from '../services/technique.service';
+import { TechniqueService } from '../../components/services/technique.service';
 
 @Component({
   selector: 'app-meditation-guidee',
@@ -16,5 +16,6 @@ export class MeditationGuideeComponent {
       this.techniquesToDisplay = technique;
       console.log(this.techniquesToDisplay)
     })
+
   }
 }

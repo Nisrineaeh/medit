@@ -6,7 +6,7 @@
         "description":
           "Méditation pour trouver la paix intérieure et l'harmonie avec la nature.",
         "duration": "15 minutes",
-        "images": "/assets/stock-photo-african-american-businesswoman-meditating-in.jpeg"
+        "images": "/assets/serenité.jpg"
       },
       {
         "id": 2,
@@ -15,7 +15,7 @@
         "description":
           "Méditation pour explorer l'univers intérieur et se connecter à l'infini.",
         "duration": "20 minutes",
-        "images": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_001.jpg"
+        "images": "/assets/etoile.jpg"
       },
       {
         "id": 3,

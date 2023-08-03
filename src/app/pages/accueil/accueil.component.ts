@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TechniqueService } from '../services/technique.service';
+import { TechniqueService } from '../../components/services/technique.service';
 import { Techniques } from 'src/app/models/techniques';
 
 @Component({
